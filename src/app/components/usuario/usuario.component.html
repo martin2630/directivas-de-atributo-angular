@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-sm-12 text-center">
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-secondary" [routerLink]="['nuevo']" routerLinkActive="active">Nuevo</button>
+      <button type="button" class="btn btn-secondary" [routerLink]="['editar']" routerLinkActive="active">Editar</button>
+      <button type="button" class="btn btn-secondary" [routerLink]="['detalle']" routerLinkActive="active">Detalle</button>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+
